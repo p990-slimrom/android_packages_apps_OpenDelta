@@ -17,19 +17,19 @@ fi
 
 # ------ CONFIGURATION ------
 
-HOME=/home/build
+HOME=/home/randolf/workspace
 
 BIN_JAVA=java
-BIN_MINSIGNAPK=$HOME/delta/minsignapk.jar
-BIN_XDELTA=$HOME/delta/xdelta3
-BIN_ZIPADJUST=$HOME/delta/zipadjust
+BIN_MINSIGNAPK=$HOME/slimkatdelta/minsignapk.jar
+BIN_XDELTA=$HOME/slimkatdelta/xdelta3
+BIN_ZIPADJUST=$HOME/slimkatdelta/zipadjust
 
 FILE_MATCH=omni-*.zip
-PATH_CURRENT=$HOME/omni/out/target/product/$DEVICE
-PATH_LAST=$HOME/delta/last/$DEVICE
+PATH_CURRENT=$HOME/sk4.4/out/target/product/$DEVICE
+PATH_LAST=$HOME/slimkatdelta/last/$DEVICE
 
-KEY_X509=$HOME/.keys/platform.x509.pem
-KEY_PK8=$HOME/.keys/platform.pk8
+KEY_X509=$HOME/target/product/security/platform.x509.pem
+KEY_PK8=$HOME/target/product/security/platform.pk8
 
 # ------ PROCESS ------
 
