@@ -24,7 +24,7 @@ BIN_MINSIGNAPK=$HOME/slimkatdelta/minsignapk.jar
 BIN_XDELTA=$HOME/slimkatdelta/xdelta3
 BIN_ZIPADJUST=$HOME/slimkatdelta/zipadjust
 
-FILE_MATCH=omni-*.zip
+FILE_MATCH=Slim-*.zip
 PATH_CURRENT=$HOME/sk4.4/out/target/product/$DEVICE
 PATH_LAST=$HOME/slimkatdelta/last/$DEVICE
 
