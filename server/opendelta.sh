@@ -154,8 +154,8 @@ echo "  }" >> $DELTA
 echo "}" >> $DELTA
 
 mkdir publish >/dev/null 2>/dev/null
-mkdir publish/$DEVICE >/dev/null 2>/dev/null
-cp out/* publish/$DEVICE/.
+mkdir $HOME/slimkatdelta/publish/$DEVICE >/dev/null 2>/dev/null
+cp out/* $HOME/slimkatdelta/publish/$DEVICE/.
 
 rm -rf work
 rm -rf out
