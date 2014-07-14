@@ -28,8 +28,8 @@ FILE_MATCH=Slim-*.zip
 PATH_CURRENT=$HOME/sk4.4/out/target/product/$DEVICE
 PATH_LAST=$HOME/slimkatdelta/last/$DEVICE
 
-KEY_X509=$HOME/sk4.4/target/product/security/platform.x509.pem
-KEY_PK8=$HOME/sk4.4/target/product/security/platform.pk8
+KEY_X509=$HOME/sk4.4/build/target/product/security/platform.x509.pem
+KEY_PK8=$HOME/sk4.4/build/target/product/security/platform.pk8
 
 # ------ PROCESS ------
 
