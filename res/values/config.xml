@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Output some debug strings -->
-    <item type="bool" name="debug_output">false</item>
+    <item type="bool" name="debug_output">true</item>
 
     <!-- Property to read for ROM version -->
-    <string name="property_version">ro.slim.version</string>
+    <string name="property_version">ro.modversion</string>
 
     <!-- Property to read for device identifier -->
     <string name="property_device">ro.product.device</string>
 
     <!-- %s is expanded to property_version value. .zip, .delta, .update, .sign extensions added when needed -->
-    <string name="filename_base">slim-%s</string>
+    <string name="filename_base">%s</string>
 
     <!-- Path deltas are stored, relative to sdcard root -->
     <string name="path_base">OpenDelta</string>
 
     <!-- URL base to find .delta files, %s is expanded to property_device value. Path is suffixed by (expanded) filename_base -->
-    <string name="url_base_delta">http://sourceforge.net/projects/djnoxd-android/files/SlimRoms/4.4/delta/%s/</string>
+    <string name="url_base_delta">http://djnoxd.de:8081/jenkins/job/slimkat4.4-delta/ws/%s</string>
 
     <!-- URL base to find .update and .sign files, %s is expanded to property_device value. Path is suffixed by (expanded) filename_base -->
-    <string name="url_base_update">http://sourceforge.net/projects/djnoxd-android/files/SlimRoms/4.4/delta/%s/</string>
+    <string name="url_base_update">http://djnoxd.de:8081/jenkins/job/slimkat4.4-delta/ws/%s</string>
 
     <!-- URL base to find the full zip files, %s is expanded to property_device value. Path is suffixed by (expanded) filename_base -->
-    <string name="url_base_full">http://sourceforge.net/projects/djnoxd-android/files/SlimRoms/4.4/%s/</string>
+    <string name="url_base_full">http://djnoxd.de:8081/jenkins/job/slimkat4.4-delta/ws/%s</string>
 
     <!-- Applies whole-file signature delta. Adds one extra delta step. Required if recovery verifies signatures -->
     <item type="bool" name="apply_signature">false</item>
